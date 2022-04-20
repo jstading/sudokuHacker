@@ -1,4 +1,3 @@
-#from cgitb import text
 import tkinter as tk
 from tkinter import IntVar, Tk, Canvas, Frame, BOTH, ttk
 
@@ -336,7 +335,6 @@ class sudokuGrid(Frame):
             return True
         
         def solver(self, board):
-            #empty = board.find_empty()
             empty = find_empty(self, board)
             if not empty:
                 return True
