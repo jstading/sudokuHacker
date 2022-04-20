@@ -10,7 +10,6 @@ Python program with Tkinter GUI that can solve Sudoku Puzzles
 *About:
 
 -This Script is a Sudoku Sovler that solves almost any Sudoku Puzzle's by utilizing the Backtracking Algorithm
--The algorithm was borrowed from "https://github.com/dhhruv/Sudoku-Solver"
 -Runs in Python, no additional modules required
 
 *Working:
